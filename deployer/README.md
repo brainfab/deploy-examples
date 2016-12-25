@@ -1,6 +1,8 @@
-# Deploy Laravel application with: https://github.com/deployphp/deployer
+# Deploy Laravel application with:
 
-<code>composer require deployer/deployer</code>
+https://github.com/deployphp/deployer
+
+<code>$ composer require deployer/deployer</code>
 
 <code>$ vendor/bin/dep init</code>
 
