@@ -1,0 +1,18 @@
+dev:
+    host: dev.domain.com
+    user: deployer
+    identity_file: ~
+    stage: dev
+    deploy_path: '/var/www/vhosts/app-dirrectory'
+    branch: develop
+    composer_options: 'install --verbose --prefer-dist --optimize-autoloader --no-progress --no-interaction'
+    restart_commands: ~
+production:
+    host: prod.domain.com
+    user: deployer
+    identity_file: ~
+    stage: production
+    deploy_path: '/var/www/vhosts/app-dirrectory'
+    branch: master
+    composer_options: 'install --no-dev --verbose --prefer-dist --optimize-autoloader --no-progress --no-interaction'
+    restart_commands: ~
