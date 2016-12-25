@@ -1,4 +1,4 @@
-# Deploy Laravel application with:
+# Deploy Laravel application with Deployer
 
 https://github.com/deployphp/deployer
 
