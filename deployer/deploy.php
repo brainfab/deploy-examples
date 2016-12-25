@@ -7,7 +7,7 @@ require 'recipe/laravel.php';
 serverList('config/deployer/servers.yml');
 
 set('default_stage', 'dev');
-set('repository', 'git@bitbucket.org:kovpak_max/natolich.git');
+set('repository', 'git@bitbucket.org:username/app_repo.git');
 set('keep_releases', 4);
 set('writable_use_sudo', true);
 set('bin/npm', function () {
