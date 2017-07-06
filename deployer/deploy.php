@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/laravel.php';
 
 // Configuration
-serverList('config/deployer/servers.yml');
+inventory('config/deployer/servers.yml');
 
 set('default_stage', 'dev');
 set('repository', 'git@bitbucket.org:username/app_repo.git');
